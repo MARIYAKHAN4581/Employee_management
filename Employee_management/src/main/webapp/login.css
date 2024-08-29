@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("Images/Loginwallpaper.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.logiingin {
+     position: absolute;
+    top: 200px;
+    left: 500px; 
+    border: 2px solid transparent; /* Added 'solid' and 'transparent' to properly define the border */
+    height: 250px; /* Added 'px' units */
+    width: 350px;  /* Added 'px' units */
+     padding: 100px 60px;
+     box-sizing: border-box;
+    /* background-color: rgba(0, 0, 0, 0.5); Added opacity to make the background color transparent */
+    
+    font-family: sans-serif;
+
+}
+h1{
+    color:green;
+    position: absolute;
+    top: 60px;
+    left: 600px;
+}
+.btn{
+    position: absolute;
+    top: 220px;
+    left: 80px; 
+   
+}
+button{
+    background-color: aquamarine;
+    width: 100px;
+    height: 30px;
+}
+
+.user{
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+.name{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+.pass{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+
+}
+.crt{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
